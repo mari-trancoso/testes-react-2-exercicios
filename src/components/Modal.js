@@ -100,6 +100,7 @@ const CloseButton = styled.button`
 function Modal(props) {
     const { activeModal, closeModal } = props
 
+    console.log(activeModal)
     const url = activeModal.sprites.front_default
     const pokeNumber = activeModal.id
     const name = activeModal.name
